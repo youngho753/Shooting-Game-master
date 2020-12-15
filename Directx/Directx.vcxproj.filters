@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Filter">
+      <UniqueIdentifier>{ee3ca129-35ba-428d-aab1-3d96bd1d8993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="신">
+      <UniqueIdentifier>{ccfe671b-6479-4522-adf3-838f833299f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="오브젝">
+      <UniqueIdentifier>{9eb6b519-c22d-4f06-ba29-7f7570589223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="오브젝\사이드바">
+      <UniqueIdentifier>{3adf721b-260d-4323-932d-f1edcd41b3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="적">
+      <UniqueIdentifier>{fb0c9c5d-51cd-4327-a253-ace44198dc4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>신</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>신</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>오브젝</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>오브젝</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>오브젝\사이드바</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>신</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>오브젝\사이드바</Filter>
+    </ClCompile>
+    <ClCompile Include="Sidebar.cpp">
+      <Filter>오브젝\사이드바</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>적</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>오브젝</Filter>
+    </ClCompile>
+    <ClCompile Include="Ebullet.cpp">
+      <Filter>오브젝</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>적</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputMgr.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>신</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>신</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>오브젝</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>오브젝</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>오브젝\사이드바</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>신</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>오브젝\사이드바</Filter>
+    </ClInclude>
+    <ClInclude Include="Sidebar.h">
+      <Filter>오브젝\사이드바</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>적</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>오브젝</Filter>
+    </ClInclude>
+    <ClInclude Include="Ebullet.h">
+      <Filter>오브젝</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>적</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
